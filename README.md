@@ -29,8 +29,7 @@ Your intelligent companion for tracking expenses and managing your finances — 
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
-```bash
+1. Clone the repo
 git clone https://github.com/SSEFU/expense-tracker.git
 cd expense-tracker
 2. Install dependencies
