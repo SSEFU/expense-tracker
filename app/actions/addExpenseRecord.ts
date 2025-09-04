@@ -62,7 +62,7 @@ async function addExpenseRecord(formData: FormData): Promise<RecordResult> {
 
   try {
     // Create a new record (allow multiple expenses per day)
-    const createdRecord = await db.expense.create({
+    const createdRecord = await db.record.create({
       data: {
         text,
         amount,
