@@ -32,23 +32,27 @@ Your intelligent companion for tracking expenses and managing your finances — 
 1. Clone the repo
 git clone https://github.com/SSEFU/expense-tracker.git
 cd expense-tracker
+
 2. Install dependencies
 npm install
+
 3. Configure environment variables
 Create a .env.local file and add your keys:
 
-(file) .env
-DATABASE_URL="your-neon-database-url"
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
+.env
+ DATABASE_URL="your-neon-database-url"
+ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 
-OPENAI_API_KEY="your-openai-api-key"
-OPENROUTER_API_KEY="your-openrouter-api-key"
-GROQ_API_KEY="your-groq-api-key"
+ OPENAI_API_KEY="your-openai-api-key"
+ OPENROUTER_API_KEY="your-openrouter-api-key"
+ GROQ_API_KEY="your-groq-api-key"
 
-CLERK_SECRET_KEY="your-clerk-secret-key"
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
+ CLERK_SECRET_KEY="your-clerk-secret-key"
+ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
+
 4. Setup the database
 npx prisma migrate dev
+
 5. Run the app
 npm run dev
 App runs on http://localhost:3000.
