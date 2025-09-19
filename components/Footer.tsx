@@ -100,12 +100,12 @@ const Footer = () => {
     <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full animate-pulse'></span>
     Made by 
     <a 
-      href="https://google.com" 
+      href="https://ssefdev.vercel.app/" 
       target="_blank" 
       rel="noopener noreferrer"
       className="underline hover:text-emerald-500"
     >
-      DEVSSEF
+      SSEFDEV
     </a>
   </div>
 </div>
